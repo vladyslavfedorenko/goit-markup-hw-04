@@ -38,7 +38,7 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    /* display: flex;  */
+   
 }
 
 .header-content {
@@ -171,6 +171,7 @@ img {
     background-size: cover;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url('../images/people-office.jpg');
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .central-content {
@@ -250,6 +251,10 @@ img {
     margin-bottom: 8px;
 }
 
+.icon-files {
+    margin: 24px 100px;
+}
+
 
 .skils-link {
     font-weight: 500;
@@ -283,6 +288,7 @@ img {
     background-color: #FFFFFF;
     width: calc((100% - 3*24px)/4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 
@@ -322,8 +328,11 @@ img {
 
 }
 
-.icon-list {
+.name-team .icon-list {
     display: flex;
+    justify-content: space-between;
+    margin: 0 16px;
+    padding-top: 8px;
 }
 
 .icon-border .link {
@@ -333,6 +342,14 @@ img {
     background-color: #404BBF;
     border-radius: 50%;
     display: block;
+}
+
+.social-icon {
+    fill: #F4F4FD;
+}
+
+.name-team .social-icon {
+    margin: 12px 12px;
 }
 
 /*section 4*/
@@ -361,6 +378,49 @@ img {
 .portfolio-content {
     width: calc((100% - 2*24px)/3);
 }
+
+.portfolio-overlay {
+        position: relative;
+        overflow: hidden;
+}
+
+.overlay {
+    padding: 8px;
+    background-color: #4D5AE5;
+    color: #fff;
+    font-family: sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.overlay-text {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    width: 296px;
+    padding-top: 40px;
+    color: #F4F4FD;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.portfolio-overlay:hover .overlay {
+    transform: translateY(0);
+}
+
+/* .gallery-item {
+    border: 1px solid #212121;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+
+} */
 
 .portfolio-information {
     padding: 32px 16px;
@@ -423,6 +483,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    justify-content: center;
+        
 }
 
 .footer-title {
@@ -438,6 +500,22 @@ img {
     padding-bottom: 132px;
     
 }
+
+.social-content .icon-list {
+    margin-top: 16px;
+    width: 208px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.social-content .icon-border {
+    display: block;
+}
+
+.social-content .social-icon {
+    margin: 8px 8px;
+}
+
 
 .footer-container {
     display: flex;
