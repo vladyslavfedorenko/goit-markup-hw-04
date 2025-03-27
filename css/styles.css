@@ -258,12 +258,10 @@ img {
     width: 264px;
     height: 112px;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.icon-files {
-    margin: 24px 100px;
-}
-
 
 .skils-link {
     font-weight: 500;
@@ -337,6 +335,11 @@ img {
 
 }
 
+.icon-list {
+    justify-content: center;
+    gap: 24px;
+}
+
 .name-team .icon-list {
     display: flex;
     justify-content: space-between;
@@ -348,9 +351,12 @@ img {
     border: 0 solid #FFFFFF;
     width: 40px;
     height: 40px;
-    background-color: #404BBF;
+    background-color: #4d5ae5;
     border-radius: 50%;
     display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-icon {
