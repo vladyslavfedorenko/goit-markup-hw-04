@@ -406,9 +406,12 @@ img {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);;
-        transform: translateY(0%);
+        /* transform: translateY(0%); */
 }
 
+.portfolio-item:hover {
+    transform: translateY(0%);
+}
 .images-overlay {
     position: relative;
     overflow: hidden;
@@ -500,6 +503,10 @@ img {
         
 }
 
+.footer-logo {
+    margin-right: 120px;
+}
+
 .footer-title {
     color: #FFFFFF;
     font-size: 16px;
@@ -510,7 +517,6 @@ img {
 }
 
 .social-content {
-    margin-left: 120px;
     padding-bottom: 132px;
     
 }
@@ -539,5 +545,4 @@ img {
 .footer-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
