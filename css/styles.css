@@ -331,21 +331,15 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-
+    margin-bottom: 8px;
 }
-
-/* .icon-list {
-    justify-content: center;
-    gap: 24px;
-} */
 
 .name-team .icon-list {
     display: flex;
     justify-content: space-between;
     margin: 0 16px;
-    padding-top: 8px;
     justify-content: center;
-        gap: 24px;
+    gap: 24px;
 }
 
 .icon-border .link {
@@ -368,10 +362,6 @@ img {
 
 .social-icon {
     fill: #F4F4FD;
-}
-
-.name-team .social-icon {
-    margin: 12px 12px;
 }
 
 /*section 4*/
@@ -516,10 +506,7 @@ img {
     margin-bottom: 16px;
 }
 
-.social-content {
-    padding-bottom: 132px;
-    
-}
+
 
 .social-content .icon-list {
     margin-top: 16px;
